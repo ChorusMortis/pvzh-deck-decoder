@@ -766,11 +766,13 @@ def get_decks_from_raw_input(raw_input: dict) -> tuple[dict, dict]:
 
 
 raw_input = {
-  "ty": "MatchReady",
-  "sd": "{\"PlayerId\":\"1007494849412\",\"DeckId\":\"ceef8cec-02a6-4608-933d-c898be604dc2\",\"HeroId\":\"Rose\",\"HeroAssetId\":\"Prefabs/Heroes/Rose\",\"Faction\":\"Plants\",\"PlayerName\":\"Dhymbot\",\"RankLastSeason\":30,\"CanMulligan\":true,\"TrackingSamplingKey\":0.307463854551315,\"IsTracked\":true,\"Deck\":{\"main\":{\"142\":1,\"470\":4,\"446\":4,\"455\":4,\"456\":4,\"476\":2,\"555\":2,\"469\":2,\"346\":2,\"46\":1,\"151\":2,\"7\":2,\"11\":3,\"150\":3,\"157\":2,\"160\":2},\"super\":{\"262\":1,\"146\":1,\"135\":1,\"47\":1}}}",
-  "gi": "ef05c46f-f90b-4632-99a7-9f88b594915f",
-  "or": 14
+    "ty": "MatchReady",
+    "sd": '{"PlayerId":"1007494849412","DeckId":"ceef8cec-02a6-4608-933d-c898be604dc2","HeroId":"Rose","HeroAssetId":"Prefabs/Heroes/Rose","Faction":"Plants","PlayerName":"Dhymbot","RankLastSeason":30,"CanMulligan":true,"TrackingSamplingKey":0.307463854551315,"IsTracked":true,"Deck":{"main":{"142":1,"470":4,"446":4,"455":4,"456":4,"476":2,"555":2,"469":2,"346":2,"46":1,"151":2,"7":2,"11":3,"150":3,"157":2,"160":2},"super":{"262":1,"146":1,"135":1,"47":1}}}',
+    "gi": "ef05c46f-f90b-4632-99a7-9f88b594915f",
+    "or": 14,
 }
+
+
 input_main_deck, input_supers = get_decks_from_raw_input(raw_input)
 output_lines = transform_input_to_output(input_main_deck, input_supers, name_list)
 print(*output_lines, sep="\n")
