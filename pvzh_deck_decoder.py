@@ -513,7 +513,7 @@ name_list = [
     "NA80",
     "Disco-Naut",
     "Space Ninja",
-    "Meteor Z",
+    "Meteor Z (E)",
     "Cosmic Dancer",
     "Final Mission (T)",
     "Quasar Wizard",
