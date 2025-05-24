@@ -161,7 +161,7 @@ name_list = [
     "Twin Sunflower",
     "Laser Bean",
     "Lawnmower (T)",
-    "Chomoper",
+    "Chomper",
     "Magnifying Grass",
     "NA11",
     "Briar Rose",
