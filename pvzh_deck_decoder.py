@@ -484,7 +484,7 @@ name_list = [
     "Toadstool",
     "Haunted Pumpking",
     "Kitchen Sink Zombie",
-    "Alien Ooze",
+    "Alien Ooze (T)",
     "Area 22 (E)",
     "Cosmic Yeti",
     "Escape Through Time (T)",
